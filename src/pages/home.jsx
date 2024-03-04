@@ -1,18 +1,17 @@
+import '../assets/styles/home.css'
+
 export default function Home(){
     return(
         <>
-           <h1>Mandarinmoon</h1>
-                <body className="main-page">
-                    <section className="insta">
-                    <a href="https://www.instagram.com/mandarinmoonn/">Insta</a>
-                    </section>
-                    <section className="youtube">
-                    <a href="https://www.youtube.com/channel/UCPzmpuYVIXpHKUIPUEB8m0g">Youtube</a>
-                    </section>
-                    <section className="tt">
-                    <a href="https://www.tiktok.com/@mandarinmooon">TikTok</a>
-                    </section>
-                </body>           
+        <h1 className="name">Grey</h1>
+            {/* <div className="text-center">
+            <img src= className='img-fluid'></img>
+                </div>  */}
+                <section className="main-page">
+                <a href="https://www.tiktok.com/@mandarinmooon" className="tt">TikTok</a>
+                <a href="https://www.instagram.com/mandarinmoonn/" className="insta">Instagram</a>
+                    <a href="https://www.youtube.com/channel/UCPzmpuYVIXpHKUIPUEB8m0g" className="youtube">Youtube</a>
+                </section>   
         </>
     )
 }
