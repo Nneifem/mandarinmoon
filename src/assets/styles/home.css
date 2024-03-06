@@ -78,8 +78,17 @@
 }
 
 @media screen and (max-width: 768px) {
+    .name {
+        font-size: 60px;
+    }
+
+    .bio {
+        font-size: 15px;
+    }
+
     .tt {
-        width: 80%
+        width: 80%;
+        padding: 10px;
     }
 
     .tiktok-pic {
@@ -87,7 +96,8 @@
     }
 
     .insta {
-        width: 80%
+        width: 80%;
+        padding: 10px;
     }
 
     .insta-pic {
@@ -95,7 +105,8 @@
     }
 
     .youtube {
-        width: 80%
+        width: 80%;
+        padding: 10px;
     }
     
     .youtube-pic {

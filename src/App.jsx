@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import strawberryBkg from './assets/images/strawberry.jpg'
+import strawberryBkg from './assets/images/doodle.jpg'
 import './App.css'
 
 function App() {
