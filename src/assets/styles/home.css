@@ -76,3 +76,33 @@
     align-items: center;
     bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .tt {
+        width: 80%
+    }
+
+    .tiktok-pic {
+        width: 30px;
+    }
+
+    .insta {
+        width: 80%
+    }
+
+    .insta-pic {
+        width: 30px;
+    }
+
+    .youtube {
+        width: 80%
+    }
+    
+    .youtube-pic {
+        width: 30px;
+    }
+
+    .credits {
+        font-size: 12px;
+    }
+}
