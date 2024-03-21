@@ -6,8 +6,8 @@ import Youtube from '../assets/images/youtube.png'
 export default function Home(){
     return(
         <>
-        <h1 className="name">Grey</h1>
-        <p className="bio">hello fellas</p>
+        <h1 className="name">Hello Fellas</h1>
+        <h3 className="bio">it's grey</h3>
             {/* <div className="text-center">
             <img src= className='img-fluid'></img>
                 </div>  */}
