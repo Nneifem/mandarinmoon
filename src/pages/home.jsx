@@ -2,12 +2,17 @@ import '../assets/styles/home.css'
 import Instagram from '../assets/images/icons8-instagram-50.png'
 import Tiktok from '../assets/images/tiktok.png'
 import Youtube from '../assets/images/youtube.png'
+import selfie from '../assets/images/selfie.png'
+import selfieTwo from '../assets/images/selfie2.png'
 
 export default function Home(){
     return(
         <>
-        <h1 className="name">Hello Fellas</h1>
-        <h3 className="bio">it's grey</h3>
+        <section className='selfie-images'>
+        <img src={selfie} className='img-fluid'></img>
+        <img src={selfieTwo} className='img-fluid'></img>
+        </section>
+        <h1 className="bio">grey</h1>
             {/* <div className="text-center">
             <img src= className='img-fluid'></img>
                 </div>  */}

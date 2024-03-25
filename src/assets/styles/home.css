@@ -1,12 +1,18 @@
-.name {
-    padding-top: 200px;
-    text-align: center;
-    font-size: 65px;
+.selfie-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+}
+.img-fluid {
+    width: 150px;
+    margin: 20px;
 }
 
 .bio {
     text-align: center;
-    font-size: 30px;
+    font-size: 55px;
+    font-style: italic;
 }
 
 .main-page {
@@ -79,39 +85,43 @@
 }
 
 @media screen and (max-width: 768px) {
-    .name {
-        font-size: 49px;
+    .bio {
+        font-size: 46px;
     }
 
-    .bio {
-        font-size: 25px;
+    .img-fluid {
+        width: 120px;
+        margin: 13px;
     }
 
     .tt {
         width: 89%;
-        padding: 10px;
+        padding: 6px;
+        font-size: 18px;
     }
 
     .tiktok-pic {
-        width: 30px;
+        width: 28px;
     }
 
     .insta {
         width: 89%;
-        padding: 10px;
+        padding: 6px;
+        font-size: 18px;
     }
 
     .insta-pic {
-        width: 30px;
+        width: 28px;
     }
 
     .youtube {
         width: 89%;
-        padding: 10px;
+        padding: 6px;
+        font-size: 18px;
     }
     
     .youtube-pic {
-        width: 30px;
+        width: 28px;
     }
 
     .credits {
