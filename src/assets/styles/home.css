@@ -33,6 +33,7 @@
     font-size: 20px;
     text-decoration: none;
     color: black;
+    background-color: white;
 }
 
 .tiktok-pic {
@@ -50,6 +51,7 @@
     font-size: 20px;
     text-decoration: none;
     color: black;
+    background-color: white;
 }
 
 .insta-pic {
@@ -67,6 +69,7 @@
     font-size: 20px;
     text-decoration: none;
     color: black;
+    background-color: white;
 }
 
 .youtube-pic {
@@ -86,7 +89,7 @@
 
 @media screen and (max-width: 768px) {
     .bio {
-        font-size: 46px;
+        font-size: 34px;
     }
 
     .img-fluid {
