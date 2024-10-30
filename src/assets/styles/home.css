@@ -10,41 +10,44 @@
 
 .name {
     text-align: center;
-    font-size: 60px;
-    font-style: italic;
+    padding-top: 50px;
+    font-size: 40px;
 }
 
-.socials {
-    padding-top: 25px;
+.info {
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
 }
 
 a {
     display: flex;
     justify-content: space-around;
     align-self: center;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 2px solid;
     border-radius: 50px;
+    border-bottom: 9px solid #003459;
     color: white;
+    width: 75%;
     text-decoration: none;
-    width: 50%;
     margin-bottom: 30px;
+}
+
+a:hover {
+    background-color: #00A7E1;
 }
 
 p {
     margin: 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.insta-img{
-    padding-left: 14px;
-}
-
-.yt-img{
-    padding-left: 8px;
+footer {
+    text-align: center;
+    padding-top: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -52,11 +55,11 @@ p {
         font-size: 50px;
     }
 
-    .img-fluid {
-        width: 150px;
+    a {
+        width: 100%;
     }
 
-    a { 
-        width: 80%;
+    p {
+        font-size: 23px;
     }
 }

@@ -1,11 +1,10 @@
 body, html {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "American Typewriter", serif;
   height: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  border: 6px solid;
+  background-color: #00171F;
+  color: #FFFFFF;
   padding: 15px;
 }
