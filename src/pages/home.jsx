@@ -10,14 +10,15 @@ export default function Home(){
         <header className='selfie-images'>
         <img src={selfie} className='img-fluid'></img>
         </header>
-        <h1 className="name">grey</h1>
+        <h1 className="name">mandarinmoonn</h1>
         <section className='info'>
             <a href="https://www.tiktok.com/@mandarinmooon"><p>Tiktok</p></a>
             <a href="https://www.instagram.com/mandarinmoonn/"><p>Instagram</p></a>
+            <a href="https://bsky.app/profile/mandarinmoonn.bsky.social"><p>Bluesky</p></a>
             <a href="https://www.youtube.com/channel/UCPzmpuYVIXpHKUIPUEB8m0g"><p>Youtube</p></a>
         </section>
 
-        <footer>by mandarinmoonn</footer>
+        <footer>only socials ໒꒰ྀི´ ˘ ` ꒱ྀིა</footer>
         </>
     )
 }
