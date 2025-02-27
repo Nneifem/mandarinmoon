@@ -25,30 +25,20 @@
 
 }
 
-/* a {
-    display: flex;
-    justify-content: space-around;
-    align-self: center;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 2px solid;
-    border-radius: 50px;
-    border-bottom: 9px solid #003459;
-    color: white;
-    width: 75%;
-    text-decoration: none;
-    margin-bottom: 30px;
-} */
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
 
-/* a:hover {
-    background-color: #00A7E1;
-} */
-
-/* p {
-    margin: 10px;
-    font-size: 25px;
-} */
+.fadeInUp-animation {
+    animation: 2.3s fadeInUp;
+}
 
 footer {
     text-align: center;
